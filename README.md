@@ -77,26 +77,6 @@ The following diagram illustrates the overall system design and how components i
 <img width="1178" height="220" alt="alb-health" src="https://github.com/user-attachments/assets/1b500bdb-6692-47ff-b90c-7d0dcd4b6d87" />
 
 
-
-
-
-
-
-
-
-
-### Target Group Healthy
-![Target Group](./screenshots/target-group.png)
-
-### Auto Scaling Group
-![ASG](./screenshots/asg.png)
-
-### RDS Database
-![RDS](./screenshots/rds.png)
-
-### CloudWatch Monitoring
-![CloudWatch](./screenshots/cloudwatch.png)
-
 ## Key Features
 
 - High availability using Multi-AZ deployment
