@@ -20,7 +20,7 @@ Key components include:
 
 The following diagram illustrates the overall system design and how components interact:
 
-![Architecture Diagram](./screenshots/architecture.png)
+![Architecture Diagram](./Cloud architecture.png)
 
 ## Implementation Steps
 
