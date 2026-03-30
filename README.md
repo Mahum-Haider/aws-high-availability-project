@@ -102,3 +102,11 @@ Successfully built and tested a highly available and scalable AWS architecture c
 - Implementing health checks with Load Balancers
 - Setting up monitoring and alerting using CloudWatch and SNS
 - Managing secure connectivity between EC2 and RDS
+
+## Future Improvements
+
+- Implement HTTPS using ACM and ALB
+- Add WAF for security
+- Use Terraform or CloudFormation for Infrastructure as Code
+- Enable RDS read replicas for scaling reads
+- Implement CI/CD pipeline for automated deployments
