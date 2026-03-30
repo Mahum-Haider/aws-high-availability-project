@@ -4,6 +4,13 @@ This project demonstrates the design and deployment of a highly available and sc
 
 It leverages EC2, Auto Scaling, Application Load Balancer, RDS, CloudWatch, and SNS to simulate a real-world production architecture.
 
+## Prerequisites
+
+- AWS Account
+- Basic knowledge of EC2, RDS, and VPC
+- IAM permissions to create resources
+- Key pair for SSH access
+
 ## Architecture Overview
 
 The application is deployed across multiple Availability Zones to ensure high availability and fault tolerance.
