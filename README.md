@@ -39,6 +39,22 @@ The following diagram illustrates the overall system design and how components i
 ![App](./screenshots/app.png)
 <img width="1461" height="562" alt="app" src="https://github.com/user-attachments/assets/690c488a-4bf9-425d-8319-a8497788b380" />
 
+### Connected to EC2 Instance via SSH
+![SSH to EC2](screenshots/ssh-ec2.png)
+<img width="578" height="276" alt="ssh-ec2" src="https://github.com/user-attachments/assets/0b35e36e-9c69-4f08-b7bc-4fde6fb17274" />
+
+### RDS Instance in Available State
+![RDS Available](screenshots/rds-available.png)
+<img width="1455" height="338" alt="rds-available" src="https://github.com/user-attachments/assets/24d0e78a-7381-4d3c-a63c-bf25e65a46c8" />
+
+
+
+
+
+
+
+
+
 
 ### Target Group Healthy
 ![Target Group](./screenshots/target-group.png)
