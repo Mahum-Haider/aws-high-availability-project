@@ -36,7 +36,7 @@ The following diagram illustrates the overall system design and how components i
 ## Screenshots
 
 ### Application Running
-![App](./screenshots/app.png)
+![App](screenshots/app.png)
 
 ### Connected to EC2 Instance via SSH
 ![SSH to EC2](screenshots/ssh-ec2.png)
