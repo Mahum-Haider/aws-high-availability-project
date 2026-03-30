@@ -11,6 +11,15 @@ It leverages EC2, Auto Scaling, Application Load Balancer, RDS, CloudWatch, and 
 - IAM permissions to create resources
 - Key pair for SSH access
 
+## Architecture Details
+
+- EC2 instances are deployed in private/public subnets across multiple AZs.
+- Application Load Balancer distributes incoming traffic across healthy instances.
+- Auto Scaling Group ensures minimum desired capacity and replaces unhealthy instances automatically.
+- RDS is deployed in a Multi-AZ configuration for database fault tolerance.
+- CloudWatch monitors system metrics and triggers alarms when thresholds are exceeded.
+- SNS sends email notifications based on alarm states.
+
 ## Architecture Overview
 
 The application is deployed across multiple Availability Zones to ensure high availability and fault tolerance.
@@ -25,7 +34,7 @@ Key components include:
 
 ## Architecture Diagram
 
-The following diagram illustrates the overall system design and how components interact:
+The diagram represents a multi-tier architecture with a presentation layer (ALB), application layer (EC2 + ASG), and data layer (RDS), integrated with monitoring and alerting services.
 
 ![Architecture Diagram](./screenshots/Cloud-architecture.png)
 
@@ -86,3 +95,10 @@ The following diagram illustrates the overall system design and how components i
 
 Successfully built and tested a highly available and scalable AWS architecture capable of handling failures and distributing traffic efficiently.
 
+## Key Learnings
+
+- Designing highly available architectures using multiple Availability Zones
+- Configuring Auto Scaling policies for dynamic workloads
+- Implementing health checks with Load Balancers
+- Setting up monitoring and alerting using CloudWatch and SNS
+- Managing secure connectivity between EC2 and RDS
