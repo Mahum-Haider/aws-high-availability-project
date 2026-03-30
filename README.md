@@ -37,6 +37,8 @@ The following diagram illustrates the overall system design and how components i
 
 ### Application Running
 ![App](./screenshots/app.png)
+<img width="1461" height="562" alt="app" src="https://github.com/user-attachments/assets/690c488a-4bf9-425d-8319-a8497788b380" />
+
 
 ### Target Group Healthy
 ![Target Group](./screenshots/target-group.png)
