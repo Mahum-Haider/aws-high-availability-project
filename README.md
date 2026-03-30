@@ -13,7 +13,7 @@ It leverages EC2, Auto Scaling, Application Load Balancer, RDS, CloudWatch, and 
 
 ## Architecture Details
 
-- EC2 instances are deployed in private/public subnets across multiple AZs.
+- EC2 instances are deployed in private subnets across multiple Availability Zones behind an Application Load Balancer.
 - Application Load Balancer distributes incoming traffic across healthy instances.
 - Auto Scaling Group ensures minimum desired capacity and replaces unhealthy instances automatically.
 - RDS is deployed in a Multi-AZ configuration for database fault tolerance.
