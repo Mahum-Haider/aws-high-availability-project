@@ -36,34 +36,34 @@ The following diagram illustrates the overall system design and how components i
 ## Screenshots
 
 ### Application Running
-![App](screenshots/app.png)
+![App](./screenshots/app.png)
 
 ### Connected to EC2 Instance via SSH
-![SSH to EC2](screenshots/ssh-ec2.png)
+![SSH to EC2](./screenshots/ssh-ec2.png)
 
 ### RDS Instance in Available State
-![RDS Available](screenshots/rds-available.png)
+![RDS Available](./screenshots/rds-available.png)
 
 ### MySQL Connection Successful
-![MySQL Connection](screenshots/mysql-connection.png)
+![MySQL Connection](./screenshots/mysql-connection.png)
 
 ### CloudWatch Dashboard: CPU Utilization Metrics
-![CPU Graph](screenshots/cpu-dashboard.png)
+![CPU Graph](./screenshots/cpu-dashboard.png)
 
 ### CloudWatch Alarms: EC2 and RDS High CPU
-![Alarms](screenshots/cloudwatch-alarms.png)
+![Alarms](./screenshots/cloudwatch-alarms.png)
 
 ### CloudWatch Alarm: CPU Utilization Exceeds Threshold
-![CPU Alarm](screenshots/cpu-alarm.png)
+![CPU Alarm](./screenshots/cpu-alarm.png)
 
 ### CloudWatch Alarm Notification via Amazon SNS
-![SNS Email](screenshots/sns-email.png)
+![SNS Email](./screenshots/sns-email.png)
 
 ### Auto Scaling Group Self-Healing in Action
-![ASG Self Healing](screenshots/asg-self-healing.png)
+![ASG Self Healing](./screenshots/asg-self-healing.png)
 
 ### ALB Target Group: EC2 Instance Registered and Healthy
-![ALB Health](screenshots/alb-health.png)
+![ALB Health](./screenshots/alb-health.png)
 
 
 ## Key Features
