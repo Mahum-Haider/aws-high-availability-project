@@ -56,3 +56,9 @@ The following diagram illustrates the overall system design and how components i
 - Auto Scaling for handling traffic dynamically
 - Load balancing across multiple EC2 instances
 - Database integration using Amazon RDS
+- Monitoring and alerting with CloudWatch and SNS
+- Fault tolerance tested through simulated failures
+
+## Outcome
+
+Successfully built and tested a highly available and scalable AWS architecture capable of handling failures and distributing traffic efficiently.
